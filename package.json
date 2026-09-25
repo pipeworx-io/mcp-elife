@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-elife",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "eLife MCP — keyless open-access life-sciences & biomedical journal articles.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-14447d2b428c1a5766a19bdc9263382ce0fd52909148f258f941cdaadf6bb670",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-512b026b00fcce6fa01b3f18437a5010a9c47989592c317353153a6d95e31acc",
+    "sourceCommit": "4fa4c64448be06f4a2ee4cee19f756f3558a7cad"
   }
 }
