@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-elife",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "eLife MCP — keyless open-access life-sciences & biomedical journal articles.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-elife": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "elife"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-elife.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/elife",
   "pipeworx": {
-    "sourceHash": "v1-1017693227955f0fa6ea46a7b28fece84761c713f8f246d3d12526b3ac14ce91",
-    "sourceCommit": "29fb434ca65fe0f61191f19c3502f583f5fb99d7"
+    "mode": "gateway",
+    "slug": "elife",
+    "gatewaySlug": "elife",
+    "sourceHash": "v1-5e06ab90ccd6ea0ea06d1c271d39e7366704f7e6817d379016b4a72d81380c2a",
+    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
   }
 }
