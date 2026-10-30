@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-elife",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "eLife MCP — keyless open-access life-sciences & biomedical journal articles.",
   "type": "module",
   "main": "lib/index.js",
@@ -28,6 +28,6 @@
     "slug": "elife",
     "gatewaySlug": "elife",
     "sourceHash": "v1-5e06ab90ccd6ea0ea06d1c271d39e7366704f7e6817d379016b4a72d81380c2a",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceCommit": "06a6b405041923c5ddf2ac2436e7c049e635f464"
   }
 }
